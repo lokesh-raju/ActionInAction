@@ -11,7 +11,7 @@ jobs:
 
     - name: Run my container
       id: lokessri_container
-      uses: lokesh-raju/ActionInAction@v1
+      uses: lokesh-raju/ActionInAction@v1.0.0
       with:
         who-to-greet: '@wulfland'
     
