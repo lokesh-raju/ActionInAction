@@ -1,4 +1,7 @@
 name: "lokesh-raju's Action in Action"
+branding:
+  icon: 'alert-triangle'
+  color: 'orange'
 description: 'Greets someone and returns always 42.'
 inputs:
   who-to-greet:  # id of input
