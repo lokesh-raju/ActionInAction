@@ -6,12 +6,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4.2.2
+    #- name: Checkout
+    #  uses: actions/checkout@v4.2.2
 
     - name: Run my container
       id: lokessri_container
-      uses: ./
+      uses: lokesh-raju/ActionInAction@v1
       with:
         who-to-greet: '@wulfland'
     
